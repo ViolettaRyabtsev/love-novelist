@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-right: 30px;
+}
+
+.book-container {
+  margin-top: 20px;
+  display: flex;
+}
+.book-detail {
+  margin-left: 20px;
+}
+
+.book-container a {
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border: solid black 1px;
+  font-size: 18px;
+  padding: 3px;
+  height: 20px;
+  text-decoration: none;
+}

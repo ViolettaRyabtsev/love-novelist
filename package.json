@@ -1,5 +1,5 @@
 {
-  "name": "writting-blog",
+  "name": "writing-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,13 +9,18 @@
     "axios": "^0.22.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-parallax": "^3.3.0",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-scroll-parallax": "^3.0.5",
+    "redux-thunk": "^2.4.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "PORT=3000 react-scripts --max_old_space_size=8128 start",
     "build": "react-scripts build",
+    "client-s3-deploy": "aws s3 sync build/static/js arn:aws:s3:::writing-blog-front-deployment",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

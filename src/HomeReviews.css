@@ -1,0 +1,14 @@
+.reviews-section div {
+  background-color: aquamarine;
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.reviews-section .center-div {
+  border-left: solid black;
+  border-right: solid black;
+}
+.reviews-section {
+  margin: auto;
+}

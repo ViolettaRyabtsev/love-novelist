@@ -1,0 +1,63 @@
+.comment {
+  margin-top: 100px;
+  margin-left: 30px;
+  height: 320px;
+}
+
+.comment h3 {
+  font-family: "Lucida Sans";
+  font-size: 20px;
+}
+.comment .name-input {
+  height: 30px;
+  width: 250px;
+  margin-top: 20px;
+  background-color: #f4f2f0;
+  opacity: 0.9;
+  border: none;
+}
+
+.comment form {
+  border: none;
+}
+
+.comment .comment-input {
+  opacity: 0.9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 900px;
+  background-color: #f4f2f0;
+  border: none;
+}
+
+.comment button {
+  height: 40px;
+  width: 200px;
+  font-size: 16px;
+  font-family: "Lucida Sans";
+  background-color: #f4f2f0;
+  border: none;
+}
+
+.list-group {
+}
+
+.list-group-item {
+  margin-top: 30px;
+  background-color: #f4f2f0;
+  opacity: 0.9;
+  margin-left: 30px;
+  width: 900px;
+  display: grid;
+}
+
+.name-data {
+  display: flex;
+}
+
+.name-data img {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
