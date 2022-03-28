@@ -3,7 +3,7 @@ import "./Comments.css";
 
 const CommentList = (props) => {
   const renderComments = () => {
-    const comments = props.datafromMySql || [];
+    const comments = props.datafromMySql || []; 
     return (
       <div>
         {comments.map((message) => (
